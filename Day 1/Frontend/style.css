@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, rgb(2, 2, 131), blue, grey, lime, green);
+}
+
+.container {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#display {
+    padding: 0.2rem 6.3rem;
+    background-color: cadetblue;
+    color: white;
+    font-weight: 900;
+    border-radius: 48px;
+    font-size: 50px;
+}
+
+.btns{
+    gap: 1rem;
+}
+.btns button{
+    padding: 10px 40px;
+    font-size: 22px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
